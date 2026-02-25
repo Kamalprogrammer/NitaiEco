@@ -1,0 +1,371 @@
+{
+    "nav": {
+        "logo": "NitAI",
+        "logoTagline": "ERP Backbone",
+        "links": [
+            "Academic",
+            "Finance",
+            "Library",
+            "Reports"
+        ],
+        "ctaText": "Request Demo"
+    },
+    "hero": {
+        "badge": "Institutional Control Engine",
+        "staticText": "Powering Governance with",
+        "rotatingTexts": [
+            "Structured Academic & Financial Governance.",
+            "Complete Institutional Resource Control.",
+            "Integrated Fee, Library & Transport Management.",
+            "Operational Clarity Across Departments.",
+            "ERP Backbone for Modern Institutions."
+        ],
+        "subtitle": "A centralized operational engine connecting Academic Setup, Finance, Resources, and Reporting — built for scalable institutions.",
+        "primaryCta": "View Modules",
+        "secondaryCta": "Request Demo",
+        "floatingCards": [
+            {
+                "title": "Academic Setup",
+                "icon": "academic",
+                "accent": "#10B981"
+            },
+            {
+                "title": "Fees",
+                "icon": "finance",
+                "accent": "#06B6D4"
+            },
+            {
+                "title": "Library",
+                "icon": "library",
+                "accent": "#3B82F6"
+            },
+            {
+                "title": "Reports",
+                "icon": "reports",
+                "accent": "#8B5CF6"
+            }
+        ]
+    },
+    "academicSetup": {
+        "tag": "Structural Foundation",
+        "title": "Academic Setup",
+        "subtitle": "Define your academic structure once. Everything else connects automatically.",
+        "cards": [
+            {
+                "id": "activation",
+                "title": "Academic Year Activation",
+                "icon": "calendar",
+                "accent": "#10B981"
+            },
+            {
+                "id": "classes",
+                "title": "Class Creation per Year",
+                "icon": "class",
+                "accent": "#06B6D4"
+            },
+            {
+                "id": "sections",
+                "title": "Section Structuring",
+                "icon": "section",
+                "accent": "#3B82F6"
+            },
+            {
+                "id": "fees",
+                "title": "Fee Structure Mapping",
+                "icon": "mapping",
+                "accent": "#8B5CF6"
+            }
+        ]
+    },
+    "studentRecords": {
+        "tag": "Academic Mapping",
+        "title": "Student Records",
+        "subtitle": "No duplication. No manual re-entry. Academic data integrity preserved.",
+        "left": {
+            "title": "Data Flow",
+            "description": "Seamlessly receives admitted data from CRM."
+        },
+        "right": {
+            "features": [
+                "Receives admitted data from CRM",
+                "Read-only protection from ERP",
+                "Class & Section mapping",
+                "Student Status (Active / Inactive)"
+            ]
+        }
+    },
+    "finance": {
+        "tag": "Fees + Expenses Engine",
+        "title": "Finance Module",
+        "subtitle": "Complete visibility over institutional cash flow — structured and categorized.",
+        "feeManagement": {
+            "title": "Student Fee Management",
+            "features": [
+                "Fee assignment via Class ID",
+                "Student account generation",
+                "Manual payment entry",
+                "Receipt generation",
+                "Due tracking indicator"
+            ]
+        },
+        "expenseTracking": {
+            "title": "Expense Tracking System",
+            "features": [
+                "Expense category creation",
+                "Transport / Library / Maintenance",
+                "Optional reference linking",
+                "Centralized ledger"
+            ]
+        }
+    },
+    "teacherRecords": {
+        "tag": "Reference Layer Integration",
+        "title": "Teacher Records",
+        "subtitle": "ERP references HRMS — without duplicating payroll complexity.",
+        "features": [
+            "Receive teacher data from HRMS",
+            "Basic profile storage",
+            "Reimbursement linkage option"
+        ]
+    },
+    "library": {
+        "tag": "Inventory Discipline",
+        "title": "Library Management",
+        "subtitle": "Controlled circulation. Automated tracking. Zero manual confusion.",
+        "features": [
+            "Book inventory tracking",
+            "Issue to students",
+            "Due monitoring",
+            "Overdue marking"
+        ],
+        "flow": [
+            "Inventory",
+            "Issue",
+            "Due Date",
+            "Return",
+            "Overdue"
+        ]
+    },
+    "transport": {
+        "tag": "Route Structuring",
+        "title": "Transport Management",
+        "subtitle": "Organized route allocation without GPS complexity.",
+        "cards": [
+            {
+                "title": "Route Creation",
+                "icon": "route",
+                "accent": "#10B981"
+            },
+            {
+                "title": "Vehicle Assignment",
+                "icon": "bus",
+                "accent": "#06B6D4"
+            },
+            {
+                "title": "Student-to-Route Mapping",
+                "icon": "mapping_user",
+                "accent": "#3B82F6"
+            }
+        ]
+    },
+    "sports": {
+        "tag": "Sports, Events & Activities",
+        "title": "Activity Management",
+        "subtitle": "Institutional activities with structured material accountability.",
+        "example": {
+            "event": "Annual Sports Day",
+            "materials": [
+                {
+                    "name": "Footballs",
+                    "total": 20,
+                    "used": 15
+                },
+                {
+                    "name": "Stopwatches",
+                    "total": 5,
+                    "used": 5
+                }
+            ]
+        },
+        "features": [
+            "Event creation",
+            "Student registration",
+            "Achievement record",
+            "Equipment inventory",
+            "Material usage tracking"
+        ]
+    },
+    "reporting": {
+        "tag": "Operational Visibility",
+        "title": "Reporting Module",
+        "subtitle": "Clear, structured reports — designed for operational decision-making.",
+        "reports": [
+            {
+                "title": "Student list by class",
+                "icon": "list"
+            },
+            {
+                "title": "Fee due report",
+                "icon": "alert"
+            },
+            {
+                "title": "Library issued books",
+                "icon": "book"
+            },
+            {
+                "title": "Transport allocation",
+                "icon": "map"
+            },
+            {
+                "title": "Sports participation",
+                "icon": "trophy"
+            },
+            {
+                "title": "Expense summary",
+                "icon": "chart"
+            }
+        ]
+    },
+    "governance": {
+        "tag": "Roles & Governance",
+        "title": "Roles, Governance & Integrations",
+        "subtitle": "Clearly defined boundaries. Structured integrations. Scalable architecture.",
+        "roles": [
+            "Admin",
+            "Finance Manager",
+            "Library Manager",
+            "Transport Manager",
+            "Sports Manager"
+        ],
+        "integrations": [
+            {
+                "from": "CRM",
+                "to": "Student Data (Class ID, Fee ID)"
+            },
+            {
+                "from": "HRMS",
+                "to": "Teacher Reference Data"
+            },
+            {
+                "from": "ERP",
+                "to": "LMS (Academic Mapping Future)"
+            }
+        ]
+    },
+    "ecosystem": {
+        "tag": "Unified Ecosystem",
+        "title": "Unified Ecosystem Summary",
+        "subtitle": "A Complete Institutional Operating System.",
+        "cards": [
+            {
+                "title": "CRM",
+                "description": "Inquiry to Admission Engine",
+                "features": [
+                    "Lead ingestion",
+                    "Pipeline tracking",
+                    "Conversion logic"
+                ]
+            },
+            {
+                "title": "ERP",
+                "description": "Operational Backbone",
+                "features": [
+                    "Academic structure",
+                    "Finance & resources",
+                    "Reporting discipline"
+                ]
+            },
+            {
+                "title": "LMS",
+                "description": "Learning Intelligence Layer",
+                "features": [
+                    "AI-driven assignments",
+                    "Performance heatmaps",
+                    "Student improvement insights"
+                ]
+            }
+        ],
+        "tagline": "From Inquiry → Admission → Academic Structure → Financial Control → Learning Intelligence"
+    },
+    "footer": {
+        "logo": "NitAI",
+        "tagline": "The Future of Educational Intelligence.",
+        "social": [
+            {
+                "name": "LinkedIn",
+                "href": "#",
+                "icon": "L"
+            },
+            {
+                "name": "Twitter",
+                "href": "#",
+                "icon": "T"
+            },
+            {
+                "name": "Youtube",
+                "href": "#",
+                "icon": "Y"
+            }
+        ],
+        "products": [
+            {
+                "name": "LMS Intelligence",
+                "href": "/"
+            },
+            {
+                "name": "CRM Systems",
+                "href": "/crm"
+            },
+            {
+                "name": "ERP Backbone",
+                "href": "/erp"
+            },
+            {
+                "name": "HRMS Control",
+                "href": "#"
+            }
+        ],
+        "company": [
+            {
+                "name": "About Us",
+                "href": "#"
+            },
+            {
+                "name": "Careers",
+                "href": "#"
+            },
+            {
+                "name": "Privacy Policy",
+                "href": "#"
+            },
+            {
+                "name": "Terms",
+                "href": "#"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Documentation",
+                "href": "#"
+            },
+            {
+                "name": "Help Center",
+                "href": "#"
+            },
+            {
+                "name": "Community",
+                "href": "#"
+            },
+            {
+                "name": "Blog",
+                "href": "#"
+            }
+        ],
+        "contact": {
+            "email": "contact@nitai.edu",
+            "phone": "+91 98765 43210",
+            "address": "Tech Park, Innovation St, Bangalore 560001"
+        },
+        "copyright": "© 2026 NitAI Educational Systems. All rights reserved."
+    }
+}

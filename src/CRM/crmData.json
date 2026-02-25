@@ -1,0 +1,405 @@
+{
+    "nav": {
+        "logo": "NitAI",
+        "logoTagline": "CRM Intelligence",
+        "links": [
+            "Features",
+            "Pipeline",
+            "Admissions",
+            "Governance"
+        ],
+        "ctaText": "Request Demo"
+    },
+    "hero": {
+        "staticText": "Automate Admissions with",
+        "rotatingTexts": [
+            "Centralized Lead Capture.",
+            "Smart Admission Conversion.",
+            "Counselor Accountability.",
+            "Automated Student Lifecycle.",
+            "Role-Based Secure Transition."
+        ],
+        "subtitle": "From Inquiry to Alumni — A Controlled, Secure & Automated CRM Engine for Educational Institutions.",
+        "primaryCta": "Request Demo",
+        "secondaryCta": "See Workflow",
+        "floatingCards": [
+            {
+                "title": "Lead",
+                "icon": "lead",
+                "accent": "#3B82F6"
+            },
+            {
+                "title": "Pipeline",
+                "icon": "pipeline",
+                "accent": "#8B5CF6"
+            },
+            {
+                "title": "Admission",
+                "icon": "admission",
+                "accent": "#06B6D4"
+            },
+            {
+                "title": "Student Profile",
+                "icon": "graduation",
+                "accent": "#10B981"
+            }
+        ]
+    },
+    "leadIngestion": {
+        "sectionTag": "CRM Core Engine",
+        "title": "Centralized Lead Ingestion",
+        "subtitle": "Every inquiry enters one structured system — validated, normalized, and ready for action.",
+        "cards": [
+            {
+                "id": "api",
+                "title": "Website API Integration",
+                "desc": "Automated capture from website enquiry forms via secure REST API. Real-time ingestion, zero manual effort.",
+                "icon": "website",
+                "accent": "#3B82F6"
+            },
+            {
+                "id": "manual",
+                "title": "Manual Walk-in Entry",
+                "desc": "Intuitive staff interface for recording walk-in inquiries and phone calls with structured data fields.",
+                "icon": "walkin",
+                "accent": "#8B5CF6"
+            },
+            {
+                "id": "bulk",
+                "title": "Bulk Upload Engine",
+                "desc": "Drag-and-drop CSV, Excel, or JSON file parsing for mass data uploads. Supports batch validation.",
+                "icon": "csv",
+                "accent": "#06B6D4"
+            },
+            {
+                "id": "validation",
+                "title": "Smart Data Validation",
+                "desc": "Automatic email and phone verification upon entry. Duplicate detection and data hygiene enforcement.",
+                "icon": "validation",
+                "accent": "#10B981"
+            }
+        ]
+    },
+    "pipeline": {
+        "sectionTag": "Pipeline Intelligence",
+        "title": "Lead Management & Pipeline Tracking",
+        "subtitle": "Structured status workflow with full modification history — from first inquiry to final decision.",
+        "tableHeaders": [
+            "Name",
+            "Contact",
+            "Course",
+            "Source",
+            "Counselor",
+            "Status"
+        ],
+        "tableRows": [
+            {
+                "name": "Aarav Sharma",
+                "contact": "+91 98XXX XXXXX",
+                "course": "B.Tech CS",
+                "source": "Website",
+                "counselor": "Priya M.",
+                "status": "Contacted"
+            },
+            {
+                "name": "Neha Patel",
+                "contact": "+91 87XXX XXXXX",
+                "course": "MBA Finance",
+                "source": "Walk-in",
+                "counselor": "Rahul K.",
+                "status": "Follow-up"
+            },
+            {
+                "name": "Rohan Gupta",
+                "contact": "+91 76XXX XXXXX",
+                "course": "BBA",
+                "source": "Referral",
+                "counselor": "Priya M.",
+                "status": "New Lead"
+            },
+            {
+                "name": "Sanya Joshi",
+                "contact": "+91 90XXX XXXXX",
+                "course": "M.Tech AI",
+                "source": "Campaign",
+                "counselor": "Amit R.",
+                "status": "Ready"
+            },
+            {
+                "name": "Kiran Das",
+                "contact": "+91 85XXX XXXXX",
+                "course": "B.Com",
+                "source": "Bulk Upload",
+                "counselor": "Rahul K.",
+                "status": "Invalid"
+            }
+        ],
+        "pipelineStages": [
+            {
+                "label": "New Lead",
+                "color": "#3B82F6",
+                "desc": "Fresh inquiry received"
+            },
+            {
+                "label": "Contacted",
+                "color": "#8B5CF6",
+                "desc": "Initial outreach done"
+            },
+            {
+                "label": "Follow-up",
+                "color": "#F59E0B",
+                "desc": "Requires further engagement"
+            },
+            {
+                "label": "Ready for Admission",
+                "color": "#06B6D4",
+                "desc": "Decision confirmed"
+            },
+            {
+                "label": "Converted",
+                "color": "#10B981",
+                "desc": "Admitted as student"
+            }
+        ],
+        "features": [
+            "Duplicate Detection",
+            "Invalid Hygiene Control",
+            "Full Modification History"
+        ]
+    },
+    "admission": {
+        "sectionTag": "The Logic Gate",
+        "title": "Secure Lead-to-Student Conversion",
+        "subtitle": "Permission-controlled admission flow with data locking and automated migration — zero manual errors.",
+        "panels": [
+            {
+                "id": "toggle",
+                "title": "Mark as Admitted",
+                "desc": "Permission-based toggle available only when admission is confirmed. Strict role gating.",
+                "icon": "toggle",
+                "accent": "#3B82F6"
+            },
+            {
+                "id": "lock",
+                "title": "Data Locking",
+                "desc": "Upon conversion, the Lead record is permanently locked — no further sales-related edits allowed.",
+                "icon": "lock",
+                "accent": "#F59E0B"
+            },
+            {
+                "id": "migrate",
+                "title": "Automated Migration",
+                "desc": "System auto-copies Name, Contact, and Course from Lead DB to Student DB — creating a permanent academic record.",
+                "icon": "migration",
+                "accent": "#10B981"
+            }
+        ],
+        "features": [
+            "Permission-controlled admission",
+            "Immutable lead history",
+            "Automatic Student Profile creation",
+            "Zero duplicate data entry"
+        ]
+    },
+    "lifecycle": {
+        "sectionTag": "Student Module",
+        "title": "Student Lifecycle Management",
+        "subtitle": "From Admission to Alumni — The lifecycle continues seamlessly.",
+        "blocks": [
+            {
+                "title": "Auto Profile Generation",
+                "desc": "LMS Login ID and Password are auto-generated. Student credentials ready from day one.",
+                "icon": "credentials",
+                "accent": "#3B82F6"
+            },
+            {
+                "title": "Academic Enrollment Mapping",
+                "desc": "Student ID, Enrollment Number, Academic Year, and Class mapping — structured and automated.",
+                "icon": "enrollment",
+                "accent": "#8B5CF6"
+            },
+            {
+                "title": "Document Repository",
+                "desc": "Secure storage for certificates, ID proofs, and academic documents. Instant retrieval.",
+                "icon": "folder",
+                "accent": "#06B6D4"
+            },
+            {
+                "title": "Academic Tracking",
+                "desc": "Attendance monitoring, class schedules, and fee status — all in one real-time dashboard.",
+                "icon": "tracking",
+                "accent": "#10B981"
+            }
+        ],
+        "timeline": [
+            "Admission",
+            "Semester",
+            "Promotion",
+            "Completion",
+            "Alumni"
+        ]
+    },
+    "governance": {
+        "sectionTag": "Access Control",
+        "title": "Governance, Roles & Operational Control",
+        "subtitle": "Structured module boundaries with role-based access — CRM staff stays in CRM, academics stay protected.",
+        "roles": [
+            {
+                "id": "staff",
+                "title": "CRM Staff",
+                "subtitle": "Sales & Counselor Team",
+                "permissions": [
+                    {
+                        "text": "Read/Write Lead Records",
+                        "allowed": true
+                    },
+                    {
+                        "text": "Update Lead Status",
+                        "allowed": true
+                    },
+                    {
+                        "text": "Append Notes & Follow-ups",
+                        "allowed": true
+                    },
+                    {
+                        "text": "Mark as Admitted",
+                        "allowed": false
+                    },
+                    {
+                        "text": "Access Student Academics",
+                        "allowed": false
+                    }
+                ],
+                "accent": "#3B82F6"
+            },
+            {
+                "id": "admin",
+                "title": "Admin / Registrar",
+                "subtitle": "Full System Control",
+                "permissions": [
+                    {
+                        "text": "Full Lead Access",
+                        "allowed": true
+                    },
+                    {
+                        "text": "Mark as Admitted",
+                        "allowed": true
+                    },
+                    {
+                        "text": "Student Profile Management",
+                        "allowed": true
+                    },
+                    {
+                        "text": "Academic Record Access",
+                        "allowed": true
+                    },
+                    {
+                        "text": "System Configuration",
+                        "allowed": true
+                    }
+                ],
+                "accent": "#10B981"
+            }
+        ],
+        "workflow": [
+            "Inquiry",
+            "Pipeline",
+            "Admission Check",
+            "Student Module",
+            "Academic Lifecycle"
+        ],
+        "footerLine": "Built with structured module boundaries for CRM → ERP → LMS integration."
+    },
+    "cta": {
+        "headline": "Ready to Automate Your Admissions Pipeline?",
+        "subtext": "Join institutions already using NitAI CRM to capture every lead, convert with precision, and manage student lifecycles end-to-end.",
+        "primaryCta": "Schedule Demo",
+        "secondaryCta": "Talk to Consultant"
+    },
+    "footer": {
+        "logo": "NitAI",
+        "tagline": "AI-Powered CRM for Educational Institutions",
+        "products": [
+            {
+                "name": "CRM",
+                "href": "#"
+            },
+            {
+                "name": "LMS",
+                "href": "#"
+            },
+            {
+                "name": "ERP",
+                "href": "#"
+            },
+            {
+                "name": "HRMS",
+                "href": "#"
+            }
+        ],
+        "company": [
+            {
+                "name": "About Us",
+                "href": "#"
+            },
+            {
+                "name": "Careers",
+                "href": "#"
+            },
+            {
+                "name": "Blog",
+                "href": "#"
+            },
+            {
+                "name": "Contact",
+                "href": "#"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Documentation",
+                "href": "#"
+            },
+            {
+                "name": "API Reference",
+                "href": "#"
+            },
+            {
+                "name": "Case Studies",
+                "href": "#"
+            },
+            {
+                "name": "Support",
+                "href": "#"
+            }
+        ],
+        "contact": {
+            "email": "crm@nitai.edu",
+            "phone": "+91 98765 43210",
+            "address": "Bangalore, India"
+        },
+        "social": [
+            {
+                "name": "Twitter",
+                "icon": "𝕏",
+                "href": "#"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "in",
+                "href": "#"
+            },
+            {
+                "name": "YouTube",
+                "icon": "▶",
+                "href": "#"
+            },
+            {
+                "name": "GitHub",
+                "icon": "⌥",
+                "href": "#"
+            }
+        ],
+        "copyright": "© 2026 NitAI. All rights reserved."
+    }
+}

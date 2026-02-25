@@ -1,0 +1,406 @@
+{
+  "nav": {
+    "logo": "NitAI",
+    "logoTagline": "Academic Intelligence",
+    "links": [
+      "Features",
+      "AI Engine",
+      "Solutions",
+      "Pricing"
+    ],
+    "ctaText": "Book Live Demo"
+  },
+  "hero": {
+    "staticText": "Transform Education with",
+    "rotatingTexts": [
+      "AI-Powered Assessments.",
+      "Smart Content Generation.",
+      "Deep Student Insights.",
+      "Zero-Touch AI Grading.",
+      "Seamless AI Connection."
+    ],
+    "subtitle": "From AI-generated assignments to intelligent grading and personalized study planning — unlock the future of education with NitAI.",
+    "primaryCta": "Book Live Demo",
+    "secondaryCta": "Explore Features",
+    "stats": [
+      {
+        "value": 500,
+        "suffix": "+",
+        "label": "Institutions"
+      },
+      {
+        "value": 2,
+        "suffix": "M+",
+        "label": "Students"
+      },
+      {
+        "value": 98,
+        "suffix": "%",
+        "label": "Satisfaction"
+      },
+      {
+        "value": 45,
+        "suffix": "%",
+        "label": "Grade Improvement"
+      }
+    ]
+  },
+  "auth": {
+    "sectionTag": "Secure Access",
+    "title": "Role-Based Authentication & Access Control",
+    "subtitle": "Enterprise-grade security for every role — students, teachers, professors, and admins. One platform, seamless access.",
+    "cards": [
+      {
+        "id": "student",
+        "title": "Student Portal",
+        "desc": "Secure login with personalized dashboard, enrolled subjects, assignments, and AI-driven study recommendations.",
+        "icon": "graduation",
+        "accent": "#06B6D4"
+      },
+      {
+        "id": "teacher",
+        "title": "Teacher & Professor Portal",
+        "desc": "Upload syllabus, create AI assignments, track performance, and manage classes with intelligent automation.",
+        "icon": "users",
+        "accent": "#8B5CF6"
+      },
+      {
+        "id": "rbac",
+        "title": "Role-Based Access Control",
+        "desc": "Granular permission management — Admin, Faculty, and Student roles with encrypted sessions and multi-factor authentication.",
+        "icon": "shield",
+        "accent": "#6366F1",
+        "wide": true
+      }
+    ]
+  },
+  "upload": {
+    "sectionTag": "Content Hub",
+    "title": "Upload Syllabus. Let AI Do the Rest.",
+    "subtitle": "Teachers upload their syllabus and course preferences. Our AI engine instantly generates structured study plans, lecture schedules, and personalized learning paths for every student.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Upload Syllabus",
+        "desc": "Teacher uploads subject syllabus, reference materials, and class preferences."
+      },
+      {
+        "step": "02",
+        "title": "AI Processing",
+        "desc": "NitAI analyzes content, structures topics, and builds intelligent curriculum maps."
+      },
+      {
+        "step": "03",
+        "title": "Study Plan Generated",
+        "desc": "AI creates week-wise study plans, assessment schedules, and content recommendations."
+      },
+      {
+        "step": "04",
+        "title": "Student Receives",
+        "desc": "Students get personalized learning paths, materials, and AI-curated resources instantly."
+      }
+    ],
+    "features": [
+      "Drag & drop syllabus upload",
+      "Auto-parsed topic extraction",
+      "AI-structured lecture plans",
+      "Personalized student paths",
+      "End-to-end teacher-student connectivity",
+      "Real-time content sync"
+    ]
+  },
+  "assignments": {
+    "sectionTag": "AI Assessments",
+    "title": "AI Creates Your Assessments in Seconds",
+    "subtitle": "Based on the uploaded syllabus, NitAI generates topic-wise, weekly, and semester-level assessments — fully customizable with manual interaction.",
+    "types": [
+      {
+        "title": "Weekly Topic Assessments",
+        "desc": "AI generates focused weekly quizzes aligned to the current teaching progress and syllabus topics.",
+        "icon": "calendar",
+        "accent": "#6366F1"
+      },
+      {
+        "title": "Mid-Sem & Half-Yearly Exams",
+        "desc": "Comprehensive examination papers covering multiple units with balanced difficulty distribution.",
+        "icon": "document",
+        "accent": "#8B5CF6"
+      },
+      {
+        "title": "Custom AI Assessments",
+        "desc": "Teachers define parameters — AI creates assessments matching exact preferences, difficulty levels, and formats.",
+        "icon": "brain",
+        "accent": "#06B6D4"
+      }
+    ],
+    "highlights": [
+      "Syllabus-aligned question generation",
+      "Difficulty level customization",
+      "Multiple format support (MCQ, subjective, case study)",
+      "Manual review & edit before publishing",
+      "Auto-distribution to enrolled classes",
+      "AI submission analysis & grading"
+    ]
+  },
+  "performance": {
+    "sectionTag": "AI Analytics",
+    "title": "AI-Powered Performance Intelligence",
+    "subtitle": "Deep learning analysis of every student's academic journey. AI identifies weak topics, suggests study materials, and generates actionable insights for both students and teachers.",
+    "studentFeatures": [
+      {
+        "title": "Weak Topic Detection",
+        "desc": "AI identifies specific topics where students struggle and recommends targeted study materials."
+      },
+      {
+        "title": "Study Material Suggestions",
+        "desc": "Curated internet resources, articles, and videos aligned to weak areas for self-improvement."
+      },
+      {
+        "title": "Progress Tracking",
+        "desc": "Visual dashboards showing topic-wise improvement over time with AI-generated insights."
+      }
+    ],
+    "teacherFeatures": [
+      {
+        "title": "Class Performance Overview",
+        "desc": "Aggregate view of class-wide performance with topic-level drill-down analytics."
+      },
+      {
+        "title": "Teaching Suggestions",
+        "desc": "AI recommends topics that need re-teaching based on class performance patterns."
+      },
+      {
+        "title": "ML-Based Learning Module",
+        "desc": "Machine learning suggestions to help teachers optimize their own teaching methodology."
+      }
+    ],
+    "heatmapTopics": [
+      {
+        "topic": "Data Structures",
+        "scores": [
+          85,
+          72,
+          90,
+          65,
+          78
+        ]
+      },
+      {
+        "topic": "Algorithms",
+        "scores": [
+          60,
+          55,
+          70,
+          45,
+          62
+        ]
+      },
+      {
+        "topic": "Database",
+        "scores": [
+          92,
+          88,
+          95,
+          80,
+          85
+        ]
+      },
+      {
+        "topic": "Networking",
+        "scores": [
+          45,
+          50,
+          55,
+          40,
+          48
+        ]
+      },
+      {
+        "topic": "OS Concepts",
+        "scores": [
+          78,
+          82,
+          75,
+          88,
+          70
+        ]
+      },
+      {
+        "topic": "Web Dev",
+        "scores": [
+          95,
+          90,
+          88,
+          92,
+          85
+        ]
+      }
+    ],
+    "heatmapLabels": [
+      "Week 1",
+      "Week 2",
+      "Week 3",
+      "Week 4",
+      "Week 5"
+    ]
+  },
+  "features": {
+    "sectionTag": "All Features",
+    "title": "Everything Your Institution Needs",
+    "subtitle": "A comprehensive AI-powered ecosystem covering every aspect of modern academic management.",
+    "items": [
+      {
+        "title": "AI Chatbot",
+        "desc": "24/7 academic assistant for instant doubt resolution",
+        "icon": "chat"
+      },
+      {
+        "title": "AI Grading",
+        "desc": "Automated evaluation with detailed feedback",
+        "icon": "robot"
+      },
+      {
+        "title": "Heatmap Analytics",
+        "desc": "Topic-wise visual performance tracking",
+        "icon": "heatmap"
+      },
+      {
+        "title": "Smart Study Plans",
+        "desc": "AI-generated personalized learning paths",
+        "icon": "calendar"
+      },
+      {
+        "title": "Content Suggestions",
+        "desc": "AI-curated study materials for weak topics",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Attendance Tracking",
+        "desc": "Automated attendance with smart monitoring",
+        "icon": "checkmark"
+      },
+      {
+        "title": "Submission Analysis",
+        "desc": "AI-powered plagiarism check and quality scoring",
+        "icon": "document"
+      },
+      {
+        "title": "Syllabus Management",
+        "desc": "Drag-and-drop syllabus upload with auto-parsing",
+        "icon": "upload"
+      },
+      {
+        "title": "Assignment Generator",
+        "desc": "AI creates assessments aligned to syllabus",
+        "icon": "brain"
+      },
+      {
+        "title": "Role-Based Access",
+        "desc": "Granular permissions for every user type",
+        "icon": "shield"
+      },
+      {
+        "title": "Performance Reports",
+        "desc": "AI-generated insights with improvement roadmap",
+        "icon": "chart"
+      },
+      {
+        "title": "Learning Automation",
+        "desc": "AI agent for end-to-end learning workflow",
+        "icon": "connection"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to Transform Your Institution?",
+    "subtext": "Join 500+ institutions already using NitAI to reduce faculty workload, improve student outcomes, and gain complete academic clarity.",
+    "primaryCta": "Schedule Demo",
+    "secondaryCta": "Talk to Consultant"
+  },
+  "footer": {
+    "logo": "NitAI",
+    "tagline": "AI-Powered Academic Intelligence Platform",
+    "products": [
+      {
+        "name": "LMS",
+        "href": "#"
+      },
+      {
+        "name": "ERP",
+        "href": "#"
+      },
+      {
+        "name": "CRM",
+        "href": "#"
+      },
+      {
+        "name": "HRMS",
+        "href": "#"
+      }
+    ],
+    "company": [
+      {
+        "name": "About Us",
+        "href": "#"
+      },
+      {
+        "name": "Careers",
+        "href": "#"
+      },
+      {
+        "name": "Blog",
+        "href": "#"
+      },
+      {
+        "name": "Contact",
+        "href": "#"
+      }
+    ],
+    "resources": [
+      {
+        "name": "Documentation",
+        "href": "#"
+      },
+      {
+        "name": "API Reference",
+        "href": "#"
+      },
+      {
+        "name": "Case Studies",
+        "href": "#"
+      },
+      {
+        "name": "Support",
+        "href": "#"
+      }
+    ],
+    "contact": {
+      "email": "hello@nitai.edu",
+      "phone": "+91 98765 43210",
+      "address": "Bangalore, India"
+    },
+    "social": [
+      {
+        "name": "Twitter",
+        "icon": "𝕏",
+        "href": "#"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "in",
+        "href": "#"
+      },
+      {
+        "name": "YouTube",
+        "icon": "▶",
+        "href": "#"
+      },
+      {
+        "name": "GitHub",
+        "icon": "⌥",
+        "href": "#"
+      }
+    ],
+    "copyright": "© 2026 NitAI. All rights reserved."
+  }
+}
