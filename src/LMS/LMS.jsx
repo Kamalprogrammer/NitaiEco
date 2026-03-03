@@ -10,7 +10,7 @@ import FeaturesGrid from './components/FeaturesGrid';
 import './LMS.css';
 
 /* ============================================
-   NitAI LMS — Landing Page (Dark Mode)
+   NitAI LMS — Landing Page (Light Mode)
    ============================================ */
 
 // ---- Scroll Reveal Hook ----

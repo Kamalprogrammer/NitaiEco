@@ -1,22 +1,22 @@
 /* ============================================
-   NitAI ERP — Institutional Backbone Styles
+   NitAI ERP — Institutional Backbone Styles (Light Mode)
    ============================================ */
 .erp-page {
-    --bg-1: #060912;
-    --bg-2: #090e1a;
-    --bg-card: #0d1221;
+    --bg-1: #FFFFFF;
+    --bg-2: #F8FAFC;
+    --bg-card: #FFFFFF;
     --acc-emerald: #10B981;
     --acc-cyan: #06B6D4;
     --acc-blue: #3B82F6;
     --acc-indigo: #6366F1;
     --acc-violet: #8B5CF6;
-    --txt-1: #F8FAFC;
-    --txt-2: #94A3B8;
-    --txt-3: #64748B;
-    --bdr: rgba(16, 185, 129, 0.12);
-    --grad-hero: radial-gradient(circle at top right, #0d1c2b 0%, #060912 100%);
+    --txt-1: #0F172A;
+    --txt-2: #475569;
+    --txt-3: #94A3B8;
+    --bdr: rgba(16, 185, 129, 0.15);
+    --grad-hero: radial-gradient(circle at top right, #ECFDF5 0%, #FFFFFF 100%);
     --grad-acc: linear-gradient(135deg, #10B981 0%, #06B6D4 100%);
-    --clay: 8px 8px 16px rgba(0, 0, 0, 0.5), -4px -4px 12px rgba(255, 255, 255, 0.01);
+    --clay: 0 4px 24px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.04);
 
     background: var(--bg-1);
     color: var(--txt-1);
@@ -82,10 +82,11 @@
 }
 
 .erp-nav-scrolled {
-    background: rgba(6, 9, 18, 0.8);
+    background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--bdr);
     padding: 12px 0;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
 }
 
 .erp-nav-inner {
@@ -172,7 +173,7 @@
 .erp-hero-grid {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(circle at 2px 2px, rgba(16, 185, 129, 0.05) 1px, transparent 0);
+    background-image: radial-gradient(circle at 2px 2px, rgba(16, 185, 129, 0.08) 1px, transparent 0);
     background-size: 40px 40px;
 }
 
@@ -265,12 +266,19 @@
 
 .erp-btn-secondary {
     padding: 14px 28px;
-    background: rgba(255, 255, 255, 0.05);
+    background: transparent;
     border: 1px solid var(--bdr);
-    color: var(--txt-1);
+    color: var(--acc-emerald);
     border-radius: 99px;
     font-weight: 700;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.erp-btn-secondary:hover {
+    background: rgba(16, 185, 129, 0.06);
+    border-color: var(--acc-emerald);
+    transform: translateY(-3px);
 }
 
 .erp-btn-primary:hover {
@@ -290,7 +298,7 @@
     height: 280px;
     border-radius: 16px;
     border: 1px solid var(--bdr);
-    background: rgba(13, 18, 33, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     padding: 16px;
     margin-top: 40px;
@@ -351,7 +359,7 @@
 
 .item {
     height: 8px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.06);
     border-radius: 4px;
     width: 100%;
 }
@@ -443,7 +451,7 @@
 
 .academic-card-visual {
     height: 4px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.06);
     border-radius: 2px;
     position: relative;
     overflow: hidden;
@@ -464,7 +472,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
-    background: rgba(16, 185, 129, 0.05);
+    background: rgba(16, 185, 129, 0.04);
     padding: 20px;
     border-radius: 12px;
     border: 1px dashed var(--bdr);
@@ -558,13 +566,13 @@
 .profile-avatar {
     width: 50px;
     height: 50px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.06);
     border-radius: 50%;
 }
 
 .info-line {
     height: 8px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.06);
     border-radius: 4px;
     width: 120px;
     margin-bottom: 8px;
@@ -605,7 +613,7 @@
 .read-only-overlay {
     position: absolute;
     inset: -10px;
-    background: rgba(6, 9, 18, 0.4);
+    background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
     display: flex;
     align-items: center;
@@ -614,13 +622,14 @@
 }
 
 .read-only-overlay span {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 12px;
     font-weight: 800;
     color: #f59e0b;
     border: 1px solid #f59e0b;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* FINANCE */
@@ -691,7 +700,7 @@
 }
 
 .receipt-mock {
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(0, 0, 0, 0.03);
     padding: 20px;
     border-radius: 8px;
     border: 1px solid var(--bdr);
@@ -730,7 +739,7 @@
 .teacher-avatar {
     width: 60px;
     height: 60px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(16, 185, 129, 0.08);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -763,7 +772,7 @@
     font-family: monospace;
     font-size: 12px;
     color: var(--txt-3);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.05);
     padding: 4px 12px;
     border-radius: 4px;
     display: inline-block;
@@ -921,7 +930,7 @@
 
 .usage-bar {
     height: 6px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.06);
     border-radius: 3px;
     overflow: hidden;
 }
@@ -945,7 +954,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    background: rgba(16, 185, 129, 0.05);
+    background: rgba(16, 185, 129, 0.04);
     padding: 12px 16px;
     border-radius: 8px;
     border: 1px solid var(--bdr);
@@ -1005,7 +1014,7 @@
 
 .p-row {
     height: 4px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.06);
     width: 80%;
     margin-bottom: 6px;
     border-radius: 2px;
@@ -1039,7 +1048,7 @@
     gap: 12px;
     font-weight: 600;
     padding: 12px;
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(0, 0, 0, 0.03);
     border-radius: 8px;
 }
 
@@ -1139,7 +1148,7 @@
 .erp-footer {
     padding: 80px 0 40px;
     border-top: 1px solid var(--bdr);
-    background: #03050a;
+    background: #F1F5F9;
 }
 
 .erp-footer-grid {
@@ -1157,7 +1166,7 @@
 }
 
 .erp-footer-brand p {
-    color: var(--txt-3);
+    color: #64748B;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -1178,7 +1187,7 @@
 }
 
 .erp-footer-col a {
-    color: var(--txt-3);
+    color: #64748B;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s;
@@ -1191,15 +1200,15 @@
 .erp-footer-contact {
     display: grid;
     gap: 12px;
-    color: var(--txt-3);
+    color: #64748B;
     font-size: 14px;
 }
 
 .erp-footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
     padding-top: 30px;
     text-align: center;
-    color: var(--txt-3);
+    color: #94A3B8;
     font-size: 13px;
 }
 
